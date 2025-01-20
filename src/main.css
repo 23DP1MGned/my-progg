@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.search-form {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: -8px;
+    flex-direction: column;
+}
+
+.search-input {
+    flex: 1;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #979a9a;
+    border-radius: 24px;
+    outline: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #979a9a;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 8px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #357ae8;
+}
+
+.footer-links {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #979a9a;
+    border-radius: 24px;
+    padding: 0px 7px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    margin: 0 8px;
+    cursor: pointer;
+    margin-top: 0px;
+    background-color: #979a9a;
+}
+
+.btn-srch {
+    padding: 0px 0px;
+    font-size: 0px;
+    color: #fff;
+    background-color: #979a9a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign-in-btn{
+    padding: 8px 8px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-mikro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Отступ от поля ввода */
+}
+
+.btn-klava{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-bottom: 6px;
+}
